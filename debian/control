@@ -1,0 +1,12 @@
+Source: ros-extendablejetty-gz-utils
+Section: misc
+Priority: optional
+Maintainer: "Addizu Z. Taddese" <addisu@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, libcli11-dev, libspdlog-dev, ros-extendablejetty-gz-cmake, ros-extendablejetty-ros-workspace-shell
+Homepage: https://github.com/gazebosim/gz-utils
+Standards-Version: 3.9.2
+
+Package: ros-extendablejetty-gz-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcli11-dev, libspdlog-dev, ros-extendablejetty-gz-cmake, ros-extendablejetty-ros-workspace-shell
+Description: Gazebo Utils : Classes and functions for robot applications
